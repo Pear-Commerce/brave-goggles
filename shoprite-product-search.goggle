@@ -4,4 +4,4 @@
 ! author: AthulyaRaj
 
 $discard
-!/sm/.*/rsid/.*/product/ $inurl
+!/sm/.+/rsid/.+/product/ $inurl
