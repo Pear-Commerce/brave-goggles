@@ -1,7 +1,7 @@
 ! name: Product URL Filter
-! description: Only include URLs matching */sm/*/rsid/*/product/*
+! description: Only include product URLs with UPC ID
 ! public: true
 ! author: AthulyaRaj
 
 $discard
-!/sm/*/rsid/*/product/ $inurl
+!/product/*id-*/ $inurl
