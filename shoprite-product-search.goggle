@@ -1,0 +1,6 @@
+! name: Product URL Filter
+! description: Only include URLs matching */sm/*/rsid/*/product/*
+! public: true
+! author: AthulyaRaj
+
+$include,sm/.*/rsid/.*/product/$inurl
