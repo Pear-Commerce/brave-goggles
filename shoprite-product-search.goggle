@@ -1,7 +1,14 @@
+
 ! name: Product URL Filter
-! description: Only include URLs matching */sm/*/rsid/*/product/*
+! description: Filter for ShopRite product pages
 ! public: true
 ! author: AthulyaRaj
 
 $discard
-!/sm/.+/rsid/.+/product/ $inurl
+!/sm/ $inurl
+
+$discard
+!/rsid/ $inurl
+
+$discard
+!/product/ $inurl
