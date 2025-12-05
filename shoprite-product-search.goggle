@@ -3,4 +3,5 @@
 ! public: true
 ! author: AthulyaRaj
 
-$include,sm/.*/rsid/.*/product/$inurl
+$discard
+/^(?!.*\/sm\/.*\/rsid\/.*\/product\/)/ $inurl
